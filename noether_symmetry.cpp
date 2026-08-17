@@ -1,3 +1,5 @@
+// If e = 0.0: Rotational symmetry is preserved -> Lz remains constant.
+// If e > 0.0: Symmetry breaks -> Lz changes over time.
 #include <iostream>
 #include <cmath>
 
