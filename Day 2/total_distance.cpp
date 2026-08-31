@@ -1,19 +1,20 @@
 #include <iostream>
 
-// Función principal que resuelve tu problema del SAT
-double calcularConstanteC(double distancia_total) {
-    double mitad = distancia_total / 2.0;
-    double c = mitad * mitad;
+// Key feature that solves your SAT-related issue.
+double calcularConstanteC(double total_distance) {
+    double half = total_distance / 2.0;
+    double c = half * half;
     return c;
 }
 
 int main() {
-    // Probamos con la distancia de tu ejemplo (y = -x^2 + 9 tiene una distancia de 6)
-    double distancia = 6.0;
-    double resultado = calcularConstanteC(distancia);
+    // We test it using the distance from your example (y = -x^2 + 9 has a distance of 6).
+    double distance = 6.0;
+    double result = calcularConstanteC(distance);
     
-    // Mostramos el resultado en la consola
-    std::cout << "Para una distancia de " << distancia << ", la constante c es: " << resultado << "\n";
+    // We display the result in the console.
+    std::cout << "For a distance of " << distance << ", the constant c is: " << result << "\n";
     
-    return 0; // Indica que el programa terminó sin errores
+    return 0; // Indicates that the program finished without errors.
+
 }
