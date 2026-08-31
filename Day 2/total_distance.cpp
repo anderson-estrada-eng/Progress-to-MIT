@@ -16,5 +16,4 @@ int main() {
     std::cout << "For a distance of " << distance << ", the constant c is: " << result << "\n";
     
     return 0; // Indicates that the program finished without errors.
-
 }
