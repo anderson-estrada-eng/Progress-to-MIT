@@ -3,7 +3,7 @@
 // Key feature that solves your SAT-related issue.
 double calcularConstanteC(double total_distance) {
     double half = total_distance / 2.0;
-    double c = half * half;
+    double c = 9 - (half * half);
     return c;
 }
 
