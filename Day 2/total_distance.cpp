@@ -7,6 +7,7 @@ double calcularConstanteC(double total_distance) {
     return c;
 }
 
+
 int main() {
     // We test it using the distance from your example (y = -x^2 + 9 has a distance of 6).
     double distance = 6.0;
