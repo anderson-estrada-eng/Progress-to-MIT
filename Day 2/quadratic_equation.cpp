@@ -6,17 +6,17 @@ using namespace std;
 double operation(double a, double b, double c){return b*b-4*a*c;}
 int main(){
 double a;
-    cout<< "Ingresa el valor de la letra a:";
+    cout<< "Enter the value of the letter a:";
     cin>> a;
 double b;
-    cout<< "Ingresa el valor de la letra b:";
+    cout<< "Enter the value of the letter b:";
     cin>> b;
 double c;
-    cout<< "Ingresa el valor de la letra c:";
+    cout<< "Enter the value of the letter c:";
     cin>> c;
 
-cout<<"Haz ingresado estos datos:""\n" <<a << "\n" <<b << "\n" <<c;
-cout<<"\n" << operation(a,b,c);
+cout<<"You have entered this information:""\n" <<a << "\n" <<b << "\n" <<c;
+cout<<"\n" << "The result is:" << operation(a,b,c);
 
 return 0;
 }
